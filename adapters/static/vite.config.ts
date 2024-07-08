@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "https://demiii.com",
+        origin: "http://demiii.com",
       }),
     ],
   };
